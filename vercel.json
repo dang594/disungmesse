@@ -11,7 +11,7 @@
     "routes": [\
         \{\
             "src": "/",\
-            "dest": \'93/en/index.html"\
+            "dest": "en/index.html"\
         \}\
     ]\
 \}}
