@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact</title>
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="../js/jquery-1.11.1.min.js"></script> 
+<script src="../js/modernizr.custom.63321.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container1 header_margin">
+			<div class="header-logo">
+				<a href="index.html"><img src="../images/logozh.png" class="logo_png" alt="logo"/></a>					
+			</div>
+			<!--top-nav-->
+			<div class="top-nav cl-effect-11">
+				<span class="menu-icon"><img src="../images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" data-hover="HOME" >首页</a></li>
+					<li><a href="about.html" data-hover="ABOUT US">关于我们</a></li>
+					<li><a href="do.html" data-hover="WHAT WE DO">服务范围</a></li>
+					<li><a href="work.html" data-hover="OUR WORK">案例展示</a></li>
+					<li><a href="contact.html" data-hover="CONTACT" class="active">联系我们</a></li>
+					<li><a href="../en/contact.html" data-hover="CONTACT" ><span style="color: #999">En/</span>中文</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+				   $( "span.menu-icon" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!--//top-nav-->
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--contact-->
+	<div class="contact">
+		<div class="container">		
+			<div class="contact-grids">
+				<div class="col-md-4 address">
+					<h3 style="color:black">联系我们</h3>
+					<p>手机 : +86 182 1716 4045</p>
+					<p>邮箱 : <a href="zoey@disungmesse.com">zoey@disungmesse.com</a></p>
+					<p>地址 : 上海市浦东新区芳华路229弄6号502室</p>
+				</div>
+				<div class="col-md-8 contact-form">
+					<h3>&nbsp;</h3>
+					<P>
+						<img class="contact_img" src="../images/wechat_1.jpg" style="width: 100px;height:100px;margin-right:10px" />
+						<img class="contact_img" src="../images/weibo.png" style="width: 100px;height:100px;margin-right:10px" />
+						<img class="contact_img" src="../images/instagram.png" style="width: 100px;height:100px" />
+					</P>
+					<!--<form>
+						<div class="col-md-6 contact-grids">
+							<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+							<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+							<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+						</div>
+						<div class="col-md-6 contact-grids">
+							<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>							
+						</div>
+						<div class="clearfix"> </div>
+						<input type="submit" value="Submit" >
+					</form>
+					-->
+				</div>
+				<div class="clearfix"> </div>	
+			</div>	
+		</div>
+	</div>
+	<!--//contact-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>帝晟展览策划（上海）有限公司 版权所有. Copyright © 2023 沪ICP备2023030172号</p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"> </script>
+</body>
+</html>

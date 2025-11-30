@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="../js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<style> 
+.banner-text1 {
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    margin: 1em auto;
+    font-weight: 100;
+    color: #f0f8ff;
+    line-height: 1.5em;
+}
+
+.banner-text {
+    min-height: 28.5em;
+    background: none;d
+    background-size: cover;
+    background-color: rgba(171,36,37,1);
+}
+
+@media (min-width: 768px)
+.container1 {
+    width: 758px;
+}
+
+@media (min-width: 992px)
+.container1 {
+    width: 982px;
+}
+
+@media (min-width: 1200px)
+.container1 {
+    width: 1190px;
+}
+
+.contact_img {
+       margin-left: 0px;
+}
+
+figure.effect-bubba h4 {
+    padding-top: 25%;
+}
+</style>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container1 header_margin">
+			<div class="header-logo">
+				<a href="index.html"><img src="../images/logozh.png" class="logo_png" alt="logo"/></a>					
+			</div>
+			<!--top-nav-->
+			<div class="top-nav cl-effect-11">
+				<span class="menu-icon"><img src="../images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" data-hover="HOME" class="active">首页</a></li>
+					<li><a href="about.html" data-hover="ABOUT US">关于我们</a></li>
+					<li><a href="do.html" data-hover="WHAT WE DO">服务范围</a></li>
+					<li><a href="work.html" data-hover="OUR WORK">案例展示</a></li>
+					<li><a href="contact.html" data-hover="CONTACT" >联系我们</a></li>
+					<li><a href="../en/index.html" data-hover="CONTACT" ><span style="color: #999">En/</span>中文</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+				   $( "span.menu-icon" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!--//top-nav-->
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--banner-->
+	<div class="banner-text">
+		<div class="container">
+		<div class="banner-text1">IT'S ABOUT CREATING AN EXCEPTIONAL EXPERIENCE FOR YOUR EXHIBITION STAND AND EVENT VISITORS.</br>After all you want them to be impressed.</div>			
+		</div>
+	</div>
+	<!--//banner-->
+	<!--features-->
+	<div class="features">
+		<div class="container">
+			<div class="banner-top">
+				<div class="banner">			
+					<div class="col-md-7 banner-left">
+						<!-- banner-text Slider starts Here -->
+						<script src="../js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});	
+							});
+						</script>
+						<!--//End-slider-script -->
+						<div class="banner-title"> 
+							<div  id="top" class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="banner-slide">
+										</div>
+									</li>
+									<li>
+										<div class="banner1">
+										</div>
+									</li>
+									<li>
+										<div class="banner2">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>			
+					<div class="col-md-5 banner-right">
+						<h1>帝 晟 展 览</h1>
+						<p>全方位的专业展览和活动服务提供商，总部位于中国和德国,凭借高品质的服务和质量服务世界各地的客户。无论您想要达到什么样的设计搭建要求，我们都能专业地从设计图纸到施工，从营销和展示咨询到落地施工，从概念诠释到全流程安排等，帝晟总能为您轻松找到有效的整体解决方案。
+               </p>
+						<a href="about.html" class="hvr-bounce">阅读更多</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="features-info">
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img1.jpg" alt=""/>
+						<figcaption>
+							<h4> HADID @ ABACE</h4>
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img2.jpg" alt=""/>
+						<figcaption>
+							<h4> IVCHENKO @ Beijing Airshow</h4>
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img3.jpg" alt=""/>
+						<figcaption>
+							<h4>HAECO @ MEBAA</h4>		
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="clearfix">
+					<div class="col-md-12 slid-grids" style="padding: 1em 0 0 0">
+						<a href="work.html" class="hvr-bounce" style="float: right;">阅读更多</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>
+	<!--//features-->
+	<!--slid-->
+	<div class="slid">
+		<div class="container">
+			<h3 style="color:black">服务内容 </h3>
+			<div class="col-md-3 slid-grids">
+				<h4>设计</h4>
+				<p>我们的设计师将以遵从您的要求出发，设计出符合您诉求的创意、新颖的方案。</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>管理</h4>
+				<p>从理念到设计、制作到安装，您可以完全依赖我们的团队为您高效地提供在您预算内的项目，这是我们出色的地方。
+				</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>制作</h4>
+				<p>我们的工匠会把您的每一个展台项目有效率的出色完成，以我们工厂的综合车间作为保证。
+				</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>安装</h4>
+				<p>在中国，亚洲，欧洲乃至其他地区，我们将为您提供从运输，交付和管理一体化复杂的项目流程。
+					</p>				
+			</div>
+			<div class="col-md-12 slid-grids" style="padding: 0 5em 1em 1em;margin-top: -3em;">
+				<a href="do.html" class="hvr-bounce" style="float: right;">阅读更多
+			  </a></div>
+		</div>
+	</div>
+	<!--//slid-->
+	<!--specials-->
+	<div class="specials">
+		<div class="container">
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">业务范围</h3>
+				<p class="about-pgh">>会展、会议、展厅咨询</p>
+				<P class="about-pgh">>3D 展台、展厅、活动设计</P>
+				<p class="about-pgh">>相关搭建、拆除及物流运输</p>
+				<p class="about-pgh">>图文设计制作 </p>
+				<p class="about-pgh">>多媒体租赁</p>
+				<p class="about-pgh">>现场管理</p>
+			</div>
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">解决方案</h3>
+				<p class="about-pgh">>定制化展台</p>
+				<P class="about-pgh">>模块化展台</P>
+				<p class="about-pgh">>双层展台</p>
+				<p class="about-pgh">>展团</p>
+				<p class="about-pgh">>会议服务</p>
+				<p class="about-pgh">>展厅</p>
+				<p class="about-pgh">>体验式营销策划</p>
+			</div>
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">联系我们</h3>
+					<p>手机 : +86 182 1716 4045</p>
+					<p>邮箱 : <a href="zoey@disungmesse.com">zoey@disungmesse.com</a></p>
+					<p>地址 : 上海市浦东新区芳华路229弄6号502室</p>
+				<br>
+				<P>
+					<img class="contact_img" src="../images/wechat_1.jpg" style="width: 57px;" />
+					<img class="contact_img" src="../images/weibo.png" style="width: 57px;" />
+					<img class="contact_img" src="../images/instagram.png" style="width: 57px;" />
+					
+				</P>
+			</div>						
+			<div class="clearfix"> </div>
+				<!-- script for tabs -->
+				<script type="text/javascript">
+					$(function() {
+					
+						var menu_ul = $('.menu > li > ul'),
+							   menu_a  = $('.menu > li > a');
+						
+						menu_ul.hide();
+					
+						menu_a.click(function(e) {
+							e.preventDefault();
+							if(!$(this).hasClass('active')) {
+								menu_a.removeClass('active');
+								menu_ul.filter(':visible').slideUp('normal');
+								$(this).addClass('active').next().stop(true,true).slideDown('normal');
+							} else {
+								$(this).removeClass('active');
+								$(this).next().stop(true,true).slideUp('normal');
+							}
+						});
+					
+					});
+				</script>
+				<!-- script for tabs -->
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<p>帝晟展览策划（上海）有限公司 版权所有. Copyright © 2023 沪ICP备2023030172号</p>
+		</div>
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"> </script>
+</body>
+</html>

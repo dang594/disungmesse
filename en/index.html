@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="../js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<style> 
+.banner-text1 {
+    font-size: 2em;
+    text-align: center;
+    width: 70%;
+    margin: 1em auto;
+    font-weight: 100;
+    color: #f0f8ff;
+    line-height: 1.5em;
+}
+
+.banner-text {
+    min-height: 28.5em;
+    background: none;d
+    background-size: cover;
+    background-color: rgba(171,36,37,1);
+}
+
+@media (min-width: 768px)
+.container1 {
+    width: 758px;
+}
+
+@media (min-width: 992px)
+.container1 {
+    width: 982px;
+}
+
+@media (min-width: 1200px)
+.container1 {
+    width: 1190px;
+}
+
+.contact_img {
+       margin-left: 0px;
+}
+
+figure.effect-bubba h4 {
+    padding-top: 25%;
+}
+</style>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container1 header_margin">
+			<div class="header-logo">
+				<a href="index.html"><img src="../images/logo.png" class="logo_png" alt="logo"/></a>					
+			</div>
+			<!--top-nav-->
+			<div class="top-nav cl-effect-11">
+				<span class="menu-icon"><img src="../images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" data-hover="HOME" class="active">HOME</a></li>
+					<li><a href="about.html" data-hover="ABOUT US">ABOUT  US</a></li>
+					<li><a href="do.html" data-hover="WHAT WE DO">WHAT WE DO</a></li>
+					<li><a href="work.html" data-hover="OUR WORK">OUR WORK</a></li>
+					<li><a href="contact.html" data-hover="CONTACT">CONTACT</a></li>
+					<li><a href="../zh/index.html" data-hover="CONTACT" >En<span style="color: #999">/中文</span></a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+				   $( "span.menu-icon" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!--//top-nav-->
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--banner-->
+	<div class="banner-text">
+		<div class="container">
+		<div class="banner-text1">IT'S ABOUT CREATING AN EXCEPTIONAL EXPERIENCE FOR YOUR EXHIBITION STAND AND EVENT VISITORS.</br>After all you want them to be impressed.</div>			
+		</div>
+	</div>
+	<!--//banner-->
+	<!--features-->
+	<div class="features">
+		<div class="container">
+			<div class="banner-top">
+				<div class="banner">			
+					<div class="col-md-7 banner-left">
+						<!-- banner-text Slider starts Here -->
+						<script src="../js/responsiveslides.min.js"></script>
+						<script>
+							// You can also use "$(window).load(function() {"
+								$(function () {
+								// Slideshow 4
+									$("#slider3").responsiveSlides({
+									auto: true,
+									pager:false,
+									nav:true,
+									speed: 500,
+									namespace: "callbacks",
+									before: function () {
+									$('.events').append("<li>before event fired.</li>");
+									},
+									after: function () {
+										$('.events').append("<li>after event fired.</li>");
+									}
+								});	
+							});
+						</script>
+						<!--//End-slider-script -->
+						<div class="banner-title"> 
+							<div  id="top" class="callbacks_container">
+								<ul class="rslides" id="slider3">
+									<li>
+										<div class="banner-slide">
+										</div>
+									</li>
+									<li>
+										<div class="banner1">
+										</div>
+									</li>
+									<li>
+										<div class="banner2">
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>			
+					<div class="col-md-5 banner-right">
+						<h1>Disung Messe</h1>
+						<p>A full range of professional exhibition and event service provider, bases in China & Germany. Serves clients all over the world. Depending on the high quality service, no matter what kind of difficult target you want to reach,Disung always makes it easy for finding the effect total solutions ,from design drawings to construction,from marketing and display consulting to implementing,from interprecting to the whole process business arrangement etc.
+               </p>
+						<a href="about.html" class="hvr-bounce">Read more</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			<div class="features-info">
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img1.jpg" alt=""/>
+						<figcaption>
+							<h4> HADID @ ABACE</h4>
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img2.jpg" alt=""/>
+						<figcaption>
+							<h4> IVCHENKO @ Beijing Airshow</h4>
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="col-md-4 features-grids">
+					<figure class="effect-bubba">
+						<img src="../images/img3.jpg" alt=""/>
+						<figcaption>
+							<h4>HAECO @ MEBAA</h4>		
+						</figcaption>			
+					</figure>		
+				</div>
+				<div class="clearfix">
+					<div class="col-md-12 slid-grids" style="padding: 1em 0 0 0">
+						<a href="work.html" class="hvr-bounce" style="float: right;">readmore</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<!--//features-->
+	<!--slid-->
+	<div class="slid">
+		<div class="container">
+			<h3 style="color:black">WHAT WE DO </h3>
+			<div class="col-md-3 slid-grids">
+				<h4>DESIGN</h4>
+				<p>Our designers will entice your visitors with clever, innovative design. Your organisation represented just the way you want it.</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>MANAGE</h4>
+				<p>From concept to design, build and installation, you can count on us to deliver your project on budget, and on time. It’s where we really shine.
+				</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>MANUFACTURE</h4>
+				<p>Your stand built with efficiency and skill, it’s what our craftsmen deliver on every project. Our comprehensive workshops guarantee it.
+				</p>
+			</div>
+			<div class="col-md-3 slid-grids">
+				<h4>INSTALL</h4>
+				<p>China, Asia,Europe and international – it’s all in a few days 'work to transport, deliver, install and manage complex stands the world over.
+					</p>				
+			</div>
+			<div class="col-md-12 slid-grids" style="padding: 0 5em 1em 1em;margin-top: -3em;">
+				<a href="do.html" class="hvr-bounce" style="float: right;">Read more
+			  </a></div>
+		</div>
+	</div>
+	<!--//slid-->
+	<!--specials-->
+	<div class="specials">
+		<div class="container">
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">Services</h3>
+				<p class="about-pgh">>Consultation</p>
+				<P class="about-pgh">>3D Booth Design</P>
+				<p class="about-pgh">>Booth Construction</p>
+				<p class="about-pgh">>Graphic Production</p>
+				<p class="about-pgh">>Trade Show Management</p>
+				<p class="about-pgh">>Installation, Dismantling & Shipping</p>
+				<p class="about-pgh">>Audio And Visual</p>
+				<p class="about-pgh">>On site supervision</p>
+			</div>
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">Solutions</h3>
+				<p class="about-pgh">>Custom Exhibition Stands</p>
+				<P class="about-pgh">>Modular Exhibition Stands</P>
+				<p class="about-pgh">>Double Decker Exhibition Stands</p>
+				<p class="about-pgh">>Expo Pavilion Stand</p>
+				<p class="about-pgh">>Event Services</p>
+				<p class="about-pgh">>Experiential Marketing</p>
+			</div>
+			<div class="col-md-4 specials-grids" style="padding-left: 4.5em;">
+				<h3 style="color:black">Contact us</h3>
+					<p>Telephone : +86 182 1716 4045</p>
+					<p>Email : <a href="zoey@disungmesse.com">zoey@disungmesse.com</a></p>
+					<p>Address : Room 502,NO.229 Fanghua Road</p>
+					<p>Pudong District,Shanghai,China 200120</p>
+				<br>
+				<P>
+					<img class="contact_img" src="../images/wechat_1.jpg" style="width: 57px;" />
+					<img class="contact_img" src="../images/weibo.png" style="width: 57px;" />
+					<img class="contact_img" src="../images/instagram.png" style="width: 57px;" />
+					
+				</P>
+			</div>						
+			<div class="clearfix"> </div>
+				<!-- script for tabs -->
+				<script type="text/javascript">
+					$(function() {
+					
+						var menu_ul = $('.menu > li > ul'),
+							   menu_a  = $('.menu > li > a');
+						
+						menu_ul.hide();
+					
+						menu_a.click(function(e) {
+							e.preventDefault();
+							if(!$(this).hasClass('active')) {
+								menu_a.removeClass('active');
+								menu_ul.filter(':visible').slideUp('normal');
+								$(this).addClass('active').next().stop(true,true).slideDown('normal');
+							} else {
+								$(this).removeClass('active');
+								$(this).next().stop(true,true).slideUp('normal');
+							}
+						});
+					
+					});
+				</script>
+				<!-- script for tabs -->
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<p>Copyright &copy; 2023 Disung Exhibition Planning (Shanghai)  Ltd. All Rights Reserved. 沪ICP备2023030172号</p>
+		</div>
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"> </script>
+</body>
+</html>

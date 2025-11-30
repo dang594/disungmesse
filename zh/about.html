@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link href="../css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="../css/style.css" type="text/css" rel="stylesheet" media="all">
+<!--//web-font-->
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<!-- js -->
+<script src="../js/jquery-1.11.1.min.js"></script> 
+<script src="../js/modernizr.custom.63321.js"></script>
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="../js/move-top.js"></script>
+<script type="text/javascript" src="../js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<style>
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: 0px;
+}
+	
+</style>
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container1 header_margin">
+			<div class="header-logo">
+				<a href="index.html"><img src="../images/logozh.png" class="logo_png" alt="logo"/></a>					
+			</div>
+			<!--top-nav-->
+			<div class="top-nav cl-effect-11">
+				<span class="menu-icon"><img src="../images/menu-icon.png" alt=""/></span>		
+				<ul class="nav1">
+					<li><a href="index.html" data-hover="HOME" >首页</a></li>
+					<li><a href="about.html" data-hover="ABOUT US" class="active">关于我们</a></li>
+					<li><a href="do.html" data-hover="WHAT WE DO">服务范围</a></li>
+					<li><a href="work.html" data-hover="OUR WORK">案例展示</a></li>
+					<li><a href="contact.html" data-hover="CONTACT" >联系我们</a></li>
+					<li><a href="../en/about.html" data-hover="CONTACT" ><span style="color: #999">En/</span>中文</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>
+				   $( "span.menu-icon" ).click(function() {
+					 $( "ul.nav1" ).slideToggle( 300, function() {
+					 // Animation complete.
+					  });
+					 });
+				</script>
+				<!-- /script-for-menu -->
+			</div>
+			<!--//top-nav-->
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!--//header-->
+	<!--about-->
+	<div class="about" style="background-color: rgba(171,36,37,1);color:#f0f8ff">
+		<div class="container">
+		  <div class="col-md-6" style="padding: 0px;">
+				<img src="../images/about_left.png" style="width:76%"/>
+			</div>
+			<div class="col-md-6" style="font-size: 1.1em;line-height: 1.6em;">
+				<img src="../images/logo_.png" style="width: 80%;margin-top:1em;"/>
+				<br>About US
+        <br><br>Disung Messe,a full range of professional exhibition and event service provider, bases in China & Germany. Serves clients all over the world. Depending on the high quality service, no matter what kind of difficult target you want to reach,Disung always makes it easy for finding the effect total solutions ,from design drawings to construction,from marketing and display consulting to implementing,from interprecting to the whole process business arrangement etc.
+        <br><br>The Target client such as Government purchasing department , Fortune Top 500 MNC,famous brands in Mass consumption product. 
+        <br><br>Standing at the front line of market with preeminent ideology and professional spirit, Disung always tries to deliver client excellence through the best quality services of exhibition and event. 
+			</div>
+		</div>
+	</div>
+	<!--//about-->
+<div class="footer">
+		<div class="container">
+			<p>帝晟展览策划（上海）有限公司 版权所有. Copyright © 2023 沪ICP备2023030172号</p>
+		</div>
+	</div>
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../js/bootstrap.js"> </script>
+</body>
+</html>
